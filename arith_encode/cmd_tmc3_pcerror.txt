@@ -1,0 +1,9 @@
+./pc_error -a ori_chair_1_big.ply -b ./tmc13_recon/rec.ply 
+
+./pc_error -a /home/yw/Desktop/latent_3d_points/data/recon_pc/ori_chair_1.ply -b /home/yw/Desktop/latent_3d_points/data/recon_pc/rec_chair_1.ply 
+
+./tmc3 --config=/home/yw/Desktop/latent_3d_points/arith_encode/encoder.cfg --reconstructedDataPath="/home/yw/Desktop/latent_3d_points/arith_encode/tmc13_recon/rec.ply" --uncompressedDataPath="/home/yw/Desktop/latent_3d_points/arith_encode/ori_chair_1_big.ply" --compressedStreamPath="/home/yw/Desktop/latent_3d_points/arith_encode/tmc13_recon/bin"
+
+tmc32.exe --config=C:\Users\YanWei\Desktop\pc_error_v0.12-3a\encoder.cfg --reconstructedDataPath="C:\Users\YanWei\Desktop\pc_error_v0.12-3a\rec.ply" --uncompressedDataPath="C:\Users\YanWei\Desktop\pc_error_v0.12-3a\ori_Airplane_0_big.ply" --compressedStreamPath="C:\Users\YanWei\Desktop\pc_error_v0.12-3a\bin"
+
+/home/yw/Desktop/latent_3d_points/data/recon_pc
